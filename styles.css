@@ -1,0 +1,77 @@
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff; /* White background for content */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 36px;
+    color: #2a4d8f; /* Dark blue for the name */
+}
+
+header p {
+    font-size: 18px;
+    color: #555; /* Dark gray for the description */
+    margin-top: 10px;
+}
+
+.social-links {
+    margin-top: 30px;
+    background-color: #f2f9fd; /* Very light blue background for the social section */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-links h2 {
+    font-size: 24px;
+    color: #2a4d8f; /* Same dark blue for the heading */
+}
+
+.social-links ul {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.social-links li {
+    margin: 10px 0;
+}
+
+.social-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #0066cc; /* Bright blue for the links */
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #004d99; /* Darker blue when hovering */
+}
+
+footer p {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777; /* Lighter gray for the footer text */
+}
